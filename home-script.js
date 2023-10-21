@@ -416,7 +416,7 @@ $(".slider-services_component").each(function (index) {
 $(".slider-process_component--gd1-cd5").each(function (index) {
   const listSwiper = new Swiper($(this).find(".swiper.is-slider-process")[0], {
     slidesPerView: "auto",
-    allowTouchMove: false,
+    allowTouchMove: true,
     speed: 500,
     direction: "vertical",
     centeredSlides: false,
