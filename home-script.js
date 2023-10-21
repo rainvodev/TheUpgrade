@@ -416,11 +416,10 @@ $(".slider-services_component").each(function (index) {
 $(".slider-process_component--gd1-cd5").each(function (index) {
   const listSwiper = new Swiper($(this).find(".swiper.is-slider-process")[0], {
     slidesPerView: "auto",
-    allowTouchMove: true,
+    allowTouchMove: false,
     speed: 500,
     direction: "vertical",
     centeredSlides: false,
-    slideToClickedSlide: true,
     navigation: {
       nextEl: $(this).find(".swiper-next-down")[0],
       prevEl: $(this).find(".swiper-prev-up")[0],
