@@ -600,28 +600,6 @@ $(".services_wrap, .explore_wrap").each(function (index) {
   });
 });
 
-$(".drag-lottie").each(function (index) {
-  let tl2 = gsap.timeline({
-    scrollTrigger: {
-      trigger: $(this),
-      start: "top bottom",
-      end: "bottom bottom",
-      scrub: false
-    }
-  });
-  tl2
-    .from($(this), {
-      opacity: 0,
-      y: "50%"
-    })
-    .to(
-      $(this),
-      {
-        opacity: 1
-      },
-      3
-    );
-});
 
 //Lightbox Modal & Toggle Switch
 document.addEventListener("DOMContentLoaded", () => {
