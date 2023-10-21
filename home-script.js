@@ -618,7 +618,7 @@ $(".drag-lottie").each(function (index) {
     .to(
       $(this),
       {
-        opacity: 0
+        opacity: 1
       },
       3
     );
