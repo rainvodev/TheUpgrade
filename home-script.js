@@ -1,4 +1,3 @@
-if (!document.body.classList.contains('w-editor')) {
  // Split text into spans
   let typeSplit = new SplitType("[text-split]", {
     types: "words, chars",
@@ -676,4 +675,3 @@ $(".dot-embed").on("click", function () {
 $(".item-link").on("click", function () {
   $(".pop-wrap").removeClass("is--show");
 });
-}
