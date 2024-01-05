@@ -3,7 +3,7 @@
     types: "words, chars",
     tagName: "span"
   });
-  
+
   //GSAP
   //PreLoader
   function pageLoad() {
