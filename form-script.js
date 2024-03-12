@@ -154,6 +154,20 @@ $(".slider-explore_component").each(function (index) {
       $(".f-input-field-other-budget.active").eq(index).removeClass("active");
     });
   });
+
+  $(".form_main_option_item.instagram").each(function (index) {
+    $(this).on("click", function () {
+      $(".f-input-field-instagram--cd3.active").eq(index).removeClass("active");
+    });
+  });
+  // New part - Adds 'active' class when options other than Instagram are clicked
+  $(".form_main_option_item:not(.instagram)").each(function () {
+    $(this).on("click", function () {
+      // Assuming there is a specific way to determine which '.f-input-field-instagram--cd3' element to activate
+      // For simplicity, let's activate all of them. Adjust the selector as needed for your use case.
+      $(".f-input-field-instagram--cd3").addClass("active");
+    });
+  });
   
   //ADD FIELDS JS
   $(document).ready(function () {
