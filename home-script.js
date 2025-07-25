@@ -497,14 +497,14 @@ const optionsCountDown = {
   startVal: 0,
   duration: 2
 };
-const numAnimDown = new countUp.CountUp("count-years", 8, optionsCountDown);
+const numAnimDown = new countUp.CountUp("count-years", 9, optionsCountDown);
 
 const optionsSubs = {
   enableScrollSpy: true,
   duration: 2
 };
 
-const numAnimSubs = new countUp.CountUp("count-honemooners", 280, optionsSubs);
+const numAnimSubs = new countUp.CountUp("count-honemooners", 550, optionsSubs);
 
 const optionsRevenue = {
   enableScrollSpy: true,
@@ -512,7 +512,7 @@ const optionsRevenue = {
 };
 const numAnimRevenue = new countUp.CountUp(
   "count-families",
-  190,
+  380,
   optionsRevenue
 );
 
