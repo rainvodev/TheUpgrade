@@ -79,6 +79,7 @@ $(".slider-explore_component").each(function (index) {
       }
     });
   });
+  
   //DATE PICKER Range
   document.getElementsByClassName("date-range")[0].flatpickr({
     mode: "range",
